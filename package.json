@@ -1,0 +1,25 @@
+{
+  "name": "hyperawesome",
+  "version": "0.0.1",
+  "description": "Awesome Hyper plugins from across the universe",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkup/hyperawesome.git"
+  },
+  "keywords": [
+    "hyper",
+    "hyperterm",
+    "list",
+    "sortable"
+  ],
+  "author": "Jon Kuperman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jkup/hyperawesome/issues"
+  },
+  "homepage": "https://github.com/jkup/hyperawesome#readme"
+}
