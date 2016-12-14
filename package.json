@@ -4,6 +4,7 @@
   "description": "Awesome Hyper plugins from across the universe",
   "main": "lib/index.js",
   "scripts": {
+    "start": "node lib/index.js",
     "test": "test"
   },
   "repository": {
