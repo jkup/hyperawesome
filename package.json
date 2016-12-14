@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jkup/hyperawesome/issues"
   },
-  "homepage": "https://github.com/jkup/hyperawesome#readme"
+  "homepage": "https://github.com/jkup/hyperawesome#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
