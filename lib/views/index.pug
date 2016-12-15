@@ -1,13 +1,18 @@
 extends layout.pug
 
 block content
-  if repositories
-    each repo in repositories
+  div.columns
+    div.column.is-4.is-offset-2
       div.card
         div.card-content
-
           div.content
             h2
-              a(href=repo.url)= repo.name
-            p= repo.description
-            span= repo.count + ' stars'
+              a(href='/plugins') Plugins
+            p See popular Hyper plugins
+    div.column.is-4
+      div.card
+        div.card-content
+          div.content
+            h2
+              a(href='/themes') Themes
+            p See popular Hyper themes

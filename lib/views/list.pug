@@ -1,0 +1,15 @@
+extends layout.pug
+
+block content
+  div.columns
+    div.column.is-8
+  if repositories
+    each repo in repositories
+      div.card
+        div.card-content
+
+          div.content
+            h2
+              a(href=repo.url)= repo.name
+            p= repo.description
+            span= repo.count + ' stars'
