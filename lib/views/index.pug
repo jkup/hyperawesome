@@ -1,0 +1,9 @@
+html
+  head
+    title= title
+  body
+    each repo in repositories
+      li
+        a(href=repo.url)= repo.name
+        div= repo.description
+        span= repo.count + ' stars'

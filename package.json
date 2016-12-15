@@ -25,6 +25,7 @@
   "homepage": "https://github.com/jkup/hyperawesome#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "github": "^7.0.1"
+    "github": "^7.0.1",
+    "pug": "^2.0.0-beta6"
   }
 }
