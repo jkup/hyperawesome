@@ -1,12 +1,13 @@
 extends layout.pug
 
 block content
-  each repo in repositories
-    div.card
-      div.card-content
+  if repositories
+    each repo in repositories
+      div.card
+        div.card-content
 
-        div.content
-          h2
-            a(href=repo.url)= repo.name
-          p= repo.description
-          span= repo.count + ' stars'
+          div.content
+            h2
+              a(href=repo.url)= repo.name
+            p= repo.description
+            span= repo.count + ' stars'
