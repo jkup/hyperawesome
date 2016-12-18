@@ -33,5 +33,9 @@
     "rx": "^4.1.0",
     "vision": "^4.1.1",
     "visionary": "^6.0.2"
+  },
+  "devDependencies": {
+    "code": "^4.0.0",
+    "lab": "^11.2.1"
   }
 }
