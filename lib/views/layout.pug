@@ -2,27 +2,12 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/css/bulma.css')
     link(rel='stylesheet', href='/css/style.css')
   body
-    nav.nav
-      .nav-left
-        a.nav-item.is-brand(href='#') HyperAwesome
-      .nav-center
-        a.nav-item(href='https://github.com/jkup/hyperawesome')
-          span.icon
-            i.fa.fa-github
-        a.nav-item(href='https://twitter.com/jkup')
-          span.icon
-            i.fa.fa-twitter
-      span.nav-toggle
-        span
-        span
-        span
-      .nav-right.nav-menu
-        a.nav-item(href='/plugins')
-          | Plugins
-        a.nav-item(href='/themes')
-          | Themes
+    nav
+      a(href='/') HyperAwesome
+      .nav-right
+        a(href='/plugins') Plugins
+        a(href='/themes') Themes
 
     block content
