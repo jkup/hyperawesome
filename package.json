@@ -24,8 +24,14 @@
   },
   "homepage": "https://github.com/jkup/hyperawesome#readme",
   "dependencies": {
-    "express": "^4.14.0",
     "github": "^7.0.1",
-    "pug": "^2.0.0-beta6"
+    "glue": "^4.0.0",
+    "hapi": "^16.0.1",
+    "hoek": "^4.1.0",
+    "inert": "^4.0.3",
+    "pug": "^2.0.0-beta6",
+    "rx": "^4.1.0",
+    "vision": "^4.1.1",
+    "visionary": "^6.0.2"
   }
 }
