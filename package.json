@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "start": "node lib/server.js",
-    "test": "lab test/server.js"
+    "test": "lab -a code -t 100 -L -v"
   },
   "repository": {
     "type": "git",

@@ -16,8 +16,8 @@ const server = require('../lib/server')
 const options = require('../lib/options')
 const manifest = require('../lib/manifest')
 
-describe('The Server', () => {
-  it('GET /', (done) => {
+describe('/index', () => {
+  it('starts server and returns hapi server object', (done) => {
     server.init(manifest, options, (err, server) => {
       expect(err).to.not.exist()
       expect(server).to.be.instanceof(Hapi.Server)
