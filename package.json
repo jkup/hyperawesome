@@ -4,7 +4,7 @@
   "description": "Awesome Hyper plugins from across the universe",
   "main": "lib/index.js",
   "scripts": {
-    "start": "node lib/server.js",
+    "start": "node lib/start.js",
     "test": "lab -a code -t 100 -L -v"
   },
   "repository": {
